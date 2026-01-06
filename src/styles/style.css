@@ -235,7 +235,7 @@ h4, h2 {
         gap: 10px;
     }
     #main-wrapper {
-        gap: 20px;
+        gap: 15px;
         padding: 5px;
         padding-bottom: 20px;
     }
@@ -276,7 +276,7 @@ h4, h2 {
         align-self: flex-start;
     }
     #current-type-wrapper {
-        gap: 50px;
+        gap: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
