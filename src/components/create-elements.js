@@ -9,7 +9,7 @@ export const createTypeElement = (typeKey, element) => {
     image.classList.add('type-image');
     const imageWrap = document.createElement('div');
     imageWrap.classList.add('image-wrapper', 'column-center-flex', `${typeKey}`);
-    let src = `/assets/icons/${typeKey}.svg`;
+    let src = `../../assets/icons/${typeKey}.svg`;
     if(src) {
         image.src = src;
     }
