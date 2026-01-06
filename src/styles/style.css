@@ -115,15 +115,18 @@ body {
 .type-button, .type-div {
     width: 75px;
     height: 75px;
+    color: black;
 }
 .selected {
     filter: brightness(90%);
     pointer-events: none;
 }
-.type-button:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    filter: saturate(200%);
+@media (hover: hover) and (pointer: fine) {
+    .type-button:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        filter: saturate(200%);
+    }
 }
 .type-label {
     font-size: 16px;
